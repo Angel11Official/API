@@ -1,0 +1,231 @@
+# Created at 2023-08-06T00:44:17.497
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+# Created at 2023-08-06T00:44:18.002
+Unexpected IOException with stream: 2023-08-06 00:44:18.002  INFO 12956 --- [           main] c.a.n.c.a.r.identify.CredentialWatcher   : [null] CredentialWatcher is stopped
+
+
+# Created at 2023-08-06T00:44:18.004
+Unexpected IOException with stream: 2023-08-06 00:44:18.004  INFO 12956 --- [           main] c.a.n.c.a.r.identify.CredentialService   : [null] CredentialService is freed
+
+
+# Created at 2023-08-06T00:44:18.004
+Unexpected IOException with stream: 2023-08-06 00:44:18.004  INFO 12956 --- [           main] c.a.n.client.config.impl.ClientWorker    : Trying to shutdown transport client com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient@74ed1d35
+
+
+# Created at 2023-08-06T00:44:18.005
+Unexpected IOException with stream: 2023-08-06 00:44:18.004  INFO 12956 --- [           main] c.a.n.client.config.impl.ClientWorker    : Trying to shutdown rpc client 0a3aa0c6-9d35-451b-9c9a-0fbf5050f342_config-0
+
+
+# Created at 2023-08-06T00:44:18.005
+Unexpected IOException with stream: 2023-08-06 00:44:18.005  INFO 12956 --- [           main] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+
+
+# Created at 2023-08-06T00:44:18.005
+Unexpected IOException with stream: 2023-08-06 00:44:18.005  INFO 12956 --- [           main] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@7acf07b2[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+
+
+# Created at 2023-08-06T00:44:18.006
+Unexpected IOException with stream: 2023-08-06 00:44:18.005  INFO 12956 --- [           main] com.alibaba.nacos.common.remote.client   : Close current connection 1691253852413_127.0.0.1_58646
+
+
+# Created at 2023-08-06T00:44:18.006
+Unexpected IOException with stream: 2023-08-06 00:44:18.006  INFO 12956 --- [           main] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@5d50e7f6[Running, pool size = 32, active threads = 0, queued tasks = 0, completed tasks = 44]
+
+
+# Created at 2023-08-06T00:44:18.007
+Unexpected IOException with stream: 2023-08-06 00:44:18.006  WARN 12956 --- [or-localhost-12] c.a.n.c.remote.client.grpc.GrpcClient    : [1691253852413_127.0.0.1_58646]Ignore error event,isRunning:false,isAbandon=false
+
+
+# Created at 2023-08-06T00:44:18.007
+Unexpected IOException with stream: 2023-08-06 00:44:18.007  INFO 12956 --- [           main] c.a.n.client.config.impl.ClientWorker    : Remove rpc client 0a3aa0c6-9d35-451b-9c9a-0fbf5050f342_config-0
+
+
+# Created at 2023-08-06T00:44:18.008
+Unexpected IOException with stream: 2023-08-06 00:44:18.007  INFO 12956 --- [           main] c.a.n.client.config.impl.ClientWorker    : Shutdown executor java.util.concurrent.ScheduledThreadPoolExecutor@54fbaa65[Running, pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 2]
+
+
+# Created at 2023-08-06T00:44:18.008
+Unexpected IOException with stream: 2023-08-06 00:44:18.008  INFO 12956 --- [           main] c.a.n.client.config.impl.ClientWorker    : com.alibaba.nacos.client.config.impl.ClientWorker do shutdown stop
+
+
+# Created at 2023-08-06T00:44:18.009
+Unexpected IOException with stream: 2023-08-06 00:44:18.009  INFO 12956 --- [           main] o.apache.dubbo.rpc.model.FrameworkModel  :  [DUBBO] Destroying default framework model: Dubbo Framework[2], dubbo version: 3.0.9, current host: 172.21.193.81
+
+
+# Created at 2023-08-06T00:44:18.009
+Unexpected IOException with stream: 2023-08-06 00:44:18.009  INFO 12956 --- [           main] o.apache.dubbo.rpc.model.FrameworkModel  :  [DUBBO] Dubbo Framework[2] is destroying ..., dubbo version: 3.0.9, current host: 172.21.193.81
+
+
+# Created at 2023-08-06T00:44:18.010
+Unexpected IOException with stream: 2023-08-06 00:44:18.010  INFO 12956 --- [           main] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] Dubbo Application[2.0](DUBBO_INTERNAL_APPLICATION) is stopping., dubbo version: 3.0.9, current host: 172.21.193.81
+
+
+# Created at 2023-08-06T00:44:18.010
+Unexpected IOException with stream: 2023-08-06 00:44:18.010  INFO 12956 --- [           main] o.a.d.registry.support.RegistryManager   :  [DUBBO] Close all registries [], dubbo version: 3.0.9, current host: 172.21.193.81
+
+
+# Created at 2023-08-06T00:44:18.011
+Unexpected IOException with stream: 2023-08-06 00:44:18.010  INFO 12956 --- [           main] o.a.d.c.deploy.DefaultModuleDeployer     :  [DUBBO] Dubbo Module[2.0.0] is stopping., dubbo version: 3.0.9, current host: 172.21.193.81
+
+
+# Created at 2023-08-06T00:44:18.011
+Unexpected IOException with stream: 2023-08-06 00:44:18.011  INFO 12956 --- [           main] o.a.d.c.deploy.DefaultModuleDeployer     :  [DUBBO] Dubbo Module[2.0.0] has stopped., dubbo version: 3.0.9, current host: 172.21.193.81
+
+
+# Created at 2023-08-06T00:44:18.011
+Unexpected IOException with stream: 2023-08-06 00:44:18.011  INFO 12956 --- [           main] o.a.d.c.t.m.DefaultExecutorRepository    :  [DUBBO] destroying application executor repository .., dubbo version: 3.0.9, current host: 172.21.193.81
+
+
+# Created at 2023-08-06T00:44:18.013
+Unexpected IOException with stream: 2023-08-06 00:44:18.011  INFO 12956 --- [           main] o.a.d.c.d.DefaultApplicationDeployer     :  [DUBBO] Dubbo Application[2.0](DUBBO_INTERNAL_APPLICATION) has stopped., dubbo version: 3.0.9, current host: 172.21.193.81
+
+
+# Created at 2023-08-06T00:44:18.013
+Unexpected IOException with stream: 2023-08-06 00:44:18.013  INFO 12956 --- [           main] o.apache.dubbo.rpc.model.FrameworkModel  :  [DUBBO] Dubbo Framework[2] is destroyed, dubbo version: 3.0.9, current host: 172.21.193.81
+
+
+# Created at 2023-08-06T00:44:18.014
+Unexpected IOException with stream: 2023-08-06 00:44:18.013  INFO 12956 --- [           main] o.apache.dubbo.rpc.model.FrameworkModel  :  [DUBBO] Reset global default framework from Dubbo Framework[2] to null, dubbo version: 3.0.9, current host: 172.21.193.81
+
+
+# Created at 2023-08-06T00:44:18.014
+Unexpected IOException with stream: 2023-08-06 00:44:18.014  INFO 12956 --- [           main] o.a.d.c.r.GlobalResourcesRepository      :  [DUBBO] Destroying global resources ..., dubbo version: 3.0.9, current host: 172.21.193.81
+
+
+# Created at 2023-08-06T00:44:18.014
+Unexpected IOException with stream: 2023-08-06 00:44:18.014  INFO 12956 --- [           main] o.a.d.c.r.GlobalResourcesRepository      :  [DUBBO] Dubbo is completely destroyed, dubbo version: 3.0.9, current host: 172.21.193.81
+
+
+# Created at 2023-08-06T00:44:18.015
+Unexpected IOException with stream: 2023-08-06 00:44:18.015  INFO 12956 --- [           main] o.a.d.c.t.m.FrameworkExecutorRepository  :  [DUBBO] destroying framework executor repository .., dubbo version: 3.0.9, current host: 172.21.193.81
+
+
+# Created at 2023-08-06T00:44:18.016
+Unexpected IOException with stream: 2023-08-06 00:44:18.016  INFO 12956 --- [           main] o.a.d.c.s.c.DubboSpringInitializer       :  [DUBBO] Unbind Dubbo Module[2.1.1] from spring container: org.springframework.beans.factory.support.DefaultListableBeanFactory@6b529d42, dubbo version: 3.0.9, current host: 172.21.193.81
+
+
+# Created at 2023-08-06T00:44:18.021
+Unexpected IOException with stream: 2023-08-06 00:44:18.020 ERROR 12956 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@64b0598] to prepare test instance [com.myapi.myapigateway.MyapiGatewayApplicationTests@51bd8b5c]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43) ~[spring-boot-test-autoconfigure-2.7.0.jar:2.7.0]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138) [spring-test-5.3.20.jar:5.3.20]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$8(ClassBasedTestDescriptor.java:363) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:368) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$9(ClassBasedTestDescriptor.java:363) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[na:1.8.0_361]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175) ~[na:1.8.0_361]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384) ~[na:1.8.0_361]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[na:1.8.0_361]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[na:1.8.0_361]
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312) ~[na:1.8.0_361]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743) ~[na:1.8.0_361]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742) ~[na:1.8.0_361]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580) ~[na:1.8.0_361]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:362) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:283) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:282) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:272) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at java.util.Optional.orElseGet(Optional.java:267) ~[na:1.8.0_361]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:271) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:102) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:101) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:66) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[na:1.8.0_361]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[na:1.8.0_361]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150) ~[surefire-junit-platform-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124) ~[surefire-junit-platform-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) ~[surefire-booter-2.22.2.jar:2.22.2]
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.myapicommon.service.InnerUserService. No provider available for the service com.myapicommon.service.InnerUserService from the url consumer://172.21.193.81/com.myapicommon.service.InnerUserService?application=dubbo-springboot-demo-provider&background=false&dubbo=2.0.2&interface=com.myapicommon.service.InnerUserService&methods=getInvokeUser&pid=12956&register.ip=172.21.193.81&release=3.0.9&revision=0.0.1&side=consumer&sticky=false&timestamp=1691253838471 to the consumer 172.21.193.81 use dubbo version 3.0.9
+	at org.apache.dubbo.config.ReferenceConfig.checkInvokerAvailable(ReferenceConfig.java:545) ~[dubbo-3.0.9.jar:3.0.9]
+	at org.apache.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:293) ~[dubbo-3.0.9.jar:3.0.9]
+	at org.apache.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:219) ~[dubbo-3.0.9.jar:3.0.9]
+	at org.apache.dubbo.config.utils.SimpleReferenceCache.get(SimpleReferenceCache.java:129) ~[dubbo-3.0.9.jar:3.0.9]
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.lambda$referServices$6(DefaultModuleDeployer.java:387) ~[dubbo-3.0.9.jar:3.0.9]
+	at java.util.concurrent.ConcurrentHashMap$ValuesView.forEach(ConcurrentHashMap.java:4705) ~[na:1.8.0_361]
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.referServices(DefaultModuleDeployer.java:367) ~[dubbo-3.0.9.jar:3.0.9]
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.start(DefaultModuleDeployer.java:154) ~[dubbo-3.0.9.jar:3.0.9]
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onContextRefreshedEvent(DubboDeployApplicationListener.java:111) ~[dubbo-3.0.9.jar:3.0.9]
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:100) ~[dubbo-3.0.9.jar:3.0.9]
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:45) ~[dubbo-3.0.9.jar:3.0.9]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:938) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:132) ~[spring-boot-test-2.7.0.jar:2.7.0]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	... 68 common frames omitted
+
+
+
+# Created at 2023-08-06T00:44:18.027
+Unexpected IOException: 5,1,com.myapi.myapigateway.MyapiGatewayApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2023-08-06T00:44:18.037
+Unexpected IOException: 7,1,com.myapi.myapigateway.MyapiGatewayApplicationTests,contextLoads,null,Failed to load ApplicationContext,null,Failed to load ApplicationContext,MyapiGatewayApplicationTests.contextLoads \00BB IllegalState Failed to load Applic...,java.lang.IllegalStateException: Failed to load ApplicationContext\000ACaused by: java.lang.IllegalStateException: Failed to check the status of the service com.myapicommon.service.InnerUserService. No provider available for the service com.myapicommon.service.InnerUserService from the url consumer://172.21.193.81/com.myapicommon.service.InnerUserService?application=dubbo-springboot-demo-provider&background=false&dubbo=2.0.2&interface=com.myapicommon.service.InnerUserService&methods=getInvokeUser&pid=12956&register.ip=172.21.193.81&release=3.0.9&revision=0.0.1&side=consumer&sticky=false&timestamp=1691253838471 to the consumer 172.21.193.81 use dubbo version 3.0.9\000A
+
+
+# Created at 2023-08-06T00:44:18.040
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.myapi.myapigateway.MyapiGatewayApplicationTests,null,null,null
+
+
+# Created at 2023-08-06T00:44:18.747
+Unexpected IOException with stream: 2023-08-06 00:44:18.746  INFO 12956 --- [naming.security] c.a.n.c.a.r.identify.CredentialWatcher   : null No credential found
+
+

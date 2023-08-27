@@ -1,0 +1,38 @@
+server:
+  port: 8090
+spring:
+  cloud:
+    gateway:
+      routes:
+#        - id: route1
+#          uri: https://example.org
+#          predicates:
+#          - After=2017-01-20T17:42:47.789-07:00[America/Denver]
+         - id: api_route
+           uri: http://localhost:8123
+           predicates:
+             - Path=/api/**
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+
+
+
+
+
+#logging:
+#  level:
+#    org:
+#      springframework:
+#        cloud:
+#          gateway:trace
+
+dubbo :
+  application:
+    name: dubbo-springboot-demo-provider
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    id: nacos-registry
+    address: nacos://localhost:8848
